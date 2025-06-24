@@ -1,0 +1,73 @@
+body {
+    background: #fff;
+    color: #234d20;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #f6fff6;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #d0e6d0;
+    padding: 32px;
+}
+h1 {
+    color: #234d20;
+    margin-bottom: 8px;
+}
+.big-phone {
+    font-size: 2.2em;
+    color: #388e3c;
+    font-weight: bold;
+    margin: 16px 0 24px 0;
+}
+form {
+    margin-bottom: 32px;
+}
+label {
+    display: block;
+    margin-top: 18px;
+    font-weight: bold;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #b2dfdb;
+    border-radius: 5px;
+    font-size: 1em;
+    background: #fff;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background: #388e3c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1.1em;
+    transition: background 0.2s;
+}
+input[type="submit"]:hover {
+    background: #234d20;
+}
+.info-block {
+    margin-bottom: 24px;
+}
+.adres, .openingstijden {
+    background: #e8f5e9;
+    padding: 18px;
+    border-radius: 7px;
+    margin-bottom: 18px;
+}
+.kaart {
+    margin-bottom: 18px;
+}
+@media (max-width: 600px) {
+    .container { padding: 10px; }
+    .big-phone { font-size: 1.3em; }
+}
+/* Honeypot field (hidden) */
+.honeypot { display: none; }
