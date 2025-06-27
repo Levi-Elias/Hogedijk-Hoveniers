@@ -1,7 +1,4 @@
-<?php
-include('includes/header.php');
-include('includes/nav.php');
-?>
+
 
 <body>
 <div class="container">
