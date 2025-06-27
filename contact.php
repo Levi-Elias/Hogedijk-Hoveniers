@@ -1,14 +1,8 @@
+<?php
+include("includes/header.php");
+include('includes/nav.php');
+?>
 
-<!-- filepath: c:\xampp\htdocs\Hogedijk-Hoveniers\contact.php -->
-<!DOCTYPE html>
-<html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <title>Contact | Hendrik Hogendijk</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Koppel hier je eigen CSS-bestand -->
-    <!-- <link rel="stylesheet" href="contact.css"> -->
-</head>
 <body>
 <div class="container">
     <h1>Contact</h1>
