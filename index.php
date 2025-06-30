@@ -1,33 +1,27 @@
 <?php
 include("includes/header.php");
-include("includes/navbar.php");
+include("includes/nav.php");
 ?>
 
+
 <main>
-    <section class="intro">
-        <h2>Welkom bij Hogedijk Hoveniers</h2>
-        <p>
-            Uw specialist in tuinontwerp, aanleg en onderhoud. Bekijk hieronder enkele van onze recente projecten.
-        </p>
-    </section>
+    <h1 class="top-tekst">Oude Projecten van Hendrick de Hovenier</h1>
     <section class="projecten">
-        <h2>Onze Projecten</h2>
-        <div class="gallery">
-            <div class="project">
-                <img src="assets/photos/project1.jpg" alt="Project 1">
-                <h3>Moderne stadstuin</h3>
-                <p>Strakke lijnen en onderhoudsvriendelijk ontwerp.</p>
-            </div>
-            <div class="project">
-                <img src="assets/photos/project2.jpg" alt="Project 2">
-                <h3>Landelijke tuin</h3>
-                <p>Veel groen en natuurlijke materialen.</p>
-            </div>
-            <div class="project">
-                <img src="assets/photos/project3.jpg" alt="Project 3">
-                <h3>Bedrijfstuin</h3>
-                <p>Representatieve entree voor uw bedrijf.</p>
-            </div>
-        </div>
+        <article class="project">
+            <img src="assets/photos/imagecopy7.png" alt="Project 1">
+            <h2>Project 1</h2>
+            <p>Een prachtig aangelegde tuin met veel groen en bloemen.</p>
+        </article>
+        <article class="project">
+            <img src="assets/photos/imagecopy15.png" alt="Project 2">
+            <h2>Project 2</h2>
+            <p>Strakke bestrating en een gezellige zithoek.</p>
+        </article>
+        <article class="project">
+            <img src="assets/photos/imagecopy13.png" alt="Project 3">
+            <h2>Project 3</h2>
+            <p>Een vijver met natuurlijke beplanting en mooie details.</p>
+        </article>
+        <!-- Voeg meer projecten toe indien gewenst -->
     </section>
 </main>
