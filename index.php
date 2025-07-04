@@ -13,9 +13,13 @@ include("includes/nav.php");
         <div class="about-content">
             <div class="about-text">
                 <h2>Over mij</h2>
-                <p>Mijn naam is Hendrik Hogendijk. Met passie en vakmanschap help ik u graag met het ontwerpen,
-                    aanleggen en onderhouden van uw tuin. Persoonlijk contact, kwaliteit en betrouwbaarheid staan bij
-                    mij voorop.</p>
+                <p>De tuin is een belangrijke plek van de woning, waar je het liefst zoveel mogelijk tijd in doorbrengt.
+                    Bij Hendrik Hogendijk Hoveniers vindt ik het daarom belangrijk dat iedereen zich thuis voelt in zijn
+                    of haar tuin.
+                    Ik maak de tuin onderdeel van jouw thuis, door hem volledig op jouw wensen af te stemmen.
+                    Met behulp van mooie, natuurlijke en duurzame producten en materialen creëer ik een tuin, die garant
+                    staat voor een jarenlang plezierig buitenleven. Van een knusse veranda en een mooie vijver, tot een
+                    gezellig terras en een kleurrijke bloemenborder: ik stop al mijn energie erin.</p>
             </div>
             <div class="about-photo">
                 <img src="assets/photos/image copy 6.png" alt="Hendrik Hogendijk" />
