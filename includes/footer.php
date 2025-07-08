@@ -3,13 +3,13 @@
         <strong>Adres:</strong><br>
         Hendrik Hogendijk<br>
         Hogedijk 123<br>
-        1234 AB Plaatsnaam
+        1234 AB Plaatsnaam<br>
+        <a href="tel:0612345678" class="footer-phone">06-12345678</a>
     </div>
 
     <div class="kaart">
-        <iframe
-            src="https://www.google.com/maps?q=Hogedijk+123,1234+AB+Plaatsnaam&output=embed"
-            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <iframe src="https://www.google.com/maps?q=Hogedijk+123,1234+AB+Plaatsnaam&output=embed" width="100%"
+            height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
 
     <div class="info-block openingstijden">
@@ -24,4 +24,5 @@
 </div>
 
 </body>
+
 </html>

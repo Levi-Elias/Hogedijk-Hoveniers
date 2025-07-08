@@ -397,25 +397,8 @@ input[type="submit"]:hover {
     }
 }
 
-/* Footer */
-footer {
-    width: 100%;
-    background: #234d20;
-    color: #fff;
-    text-align: center;
-    padding: 18px 0 10px 0;
-    font-size: 1em;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    z-index: 10;
-    box-shadow: 0 -2px 8px rgba(56, 142, 60, 0.07);
-}
 
-footer p {
-    margin: 0;
-    letter-spacing: 1px;
-}
+
 
 .projecten-section {
     max-width: 1000px;
@@ -597,6 +580,15 @@ footer p {
     margin: 0 12px 18px 12px;
     display: inline-block;
     vertical-align: top;
+    
+}
+
+.footer-phone {
+    color: #7bb661;
+    text-decoration: underline;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 6px;
 }
 
 .site-footer .kaart {
