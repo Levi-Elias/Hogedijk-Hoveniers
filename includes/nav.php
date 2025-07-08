@@ -1,3 +1,6 @@
+<?php
+$current = basename($_SERVER['PHP_SELF']);
+?>
 <div class="demo-warning">
     Let op: Dit is een demo-site!
 </div>
@@ -13,10 +16,10 @@
             <span></span>
         </label>
         <ul class="navbar-nav">
-            <li><a href="index.php" class="nav-link">Home</a></li>
-            <li><a href="diensten.php" class="nav-link">Diensten</a></li>
-            <li><a href="project.php" class="nav-link">Projecten</a></li>
-            <li><a href="contact.php" class="nav-link">Contact</a></li>
+            <li><a href="index.php" class="nav-link<?php if($current == 'index.php') echo ' active'; ?>">Home</a></li>
+            <li><a href="diensten.php" class="nav-link<?php if($current == 'diensten.php') echo ' active'; ?>">Diensten</a></li>
+            <li><a href="project.php" class="nav-link<?php if($current == 'project.php') echo ' active'; ?>">Projecten</a></li>
+            <li><a href="contact.php" class="nav-link<?php if($current == 'contact.php') echo ' active'; ?>">Contact</a></li>
         </ul>
     </div>
 </nav>

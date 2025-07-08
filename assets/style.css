@@ -181,6 +181,14 @@ input[type="submit"]:hover {
     padding: 0;
 }
 
+.nav-link.active {
+    color: #5ee565 !important; /* lichter groen */
+    text-decoration: underline;
+    background: none;
+    border-radius: 0;
+    font-weight: 700;
+}
+
 .nav-link {
     text-decoration: none;
     color: #2d3a3a;
