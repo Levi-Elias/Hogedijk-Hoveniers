@@ -6,7 +6,7 @@ include("includes/nav.php");
 <body>
 <div class="container">
     <h1>Contact</h1>
-    <div class="big-phone">Bel: 06-12345678</div>
+    <a class="big-phone" href="tel:0612345678">Bel: 06-12345678</a>
 
     <form method="post" action="contact.php" autocomplete="off">
         <label for="naam">Naam *</label>
@@ -44,26 +44,6 @@ include("includes/nav.php");
         }
     }
     ?>
-
-    <div class="info-block adres">
-        <strong>Adres:</strong><br>
-        Hendrik Hogendijk<br>
-        Hogedijk 123<br>
-        1234 AB Plaatsnaam
-    </div>
-
-    <div class="kaart">
-        <iframe
-            src="https://www.google.com/maps?q=Hogedijk+123,1234+AB+Plaatsnaam&output=embed"
-            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </div>
-
-    <div class="info-block openingstijden">
-        <strong>Openingstijden:</strong><br>
-        Maandag - vrijdag: 07.00 - 17.00 uur<br>
-        Zaterdag: Op afspraak<br>
-        Zondag: Gesloten
-    </div>
 </div>
-</body>
-</html>
+
+<?php include 'includes/footer.php'; ?>

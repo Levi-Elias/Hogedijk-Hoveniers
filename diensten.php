@@ -1,7 +1,7 @@
-<?php include 'includes/header.php'; 
+<?php include 'includes/header.php';
 ?>
 
-<?php include 'includes/nav.php'; 
+<?php include 'includes/nav.php';
 ?>
 
 <main class="container">
@@ -10,7 +10,8 @@
         <div class="dienst rij">
             <div class="dienst-tekst">
                 <h2>Tuinontwerp</h2>
-                <p>Wij maken een uniek tuinontwerp dat past bij uw wensen en de omgeving. Van modern tot klassiek, wij realiseren het.</p>
+                <p>Wij maken een uniek tuinontwerp dat past bij uw wensen en de omgeving. Van modern tot klassiek, wij
+                    realiseren het.</p>
             </div>
             <div class="dienst-foto">
                 <img src="assets/photos/dienst1.png" alt="Tuinontwerp">
@@ -28,14 +29,25 @@
         <div class="dienst rij">
             <div class="dienst-tekst">
                 <h2>Tuinonderhoud</h2>
-                <p>Wij zorgen ervoor dat uw tuin er het hele jaar door verzorgd uitziet. Zowel eenmalig als periodiek onderhoud mogelijk.</p>
+                <p>Wij zorgen ervoor dat uw tuin er het hele jaar door verzorgd uitziet. Zowel eenmalig als periodiek
+                    onderhoud mogelijk.</p>
             </div>
             <div class="dienst-foto">
                 <img src="assets/photos/dienst3.png" alt="Tuinonderhoud">
+            </div>
+        </div>
+        <div class="dienst rij">
+            <div class="dienst-tekst">
+                <h2>Zwemvijvers</h2>
+                <p>Zwemvijvers, is één van mijn grootste passies. En gelukkig, ze winnen aan steeds meer populariteit,
+                    waardoor ik er veel ervaring mee heb opgebouwd.</p>
+            </div>
+            <div class="dienst-foto">
+                <img src="assets/photos/dienst4.png" alt="Zwemvijvers">
             </div>
         </div>
     </div>
 </main>
 
 <?php include 'includes/footer.php';
- ?>
+?>
