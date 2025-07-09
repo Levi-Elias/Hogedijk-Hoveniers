@@ -2,7 +2,7 @@
 $current = basename($_SERVER['PHP_SELF']);
 ?>
 <div class="demo-warning">
-    Let op: Dit is een demo-site!
+    Hendrick Hogendijk Hoveniers since 2025.
 </div>
 <nav class="navbar custom-navbar">
     <div class="custom-navbar-container">
