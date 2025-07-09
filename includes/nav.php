@@ -2,7 +2,7 @@
 $current = basename($_SERVER['PHP_SELF']);
 ?>
 <div class="demo-warning">
-    Hendrick Hogendijk Hoveniers since 2025.
+    Hendrik Hogendijk Hoveniers since 2025.
 </div>
 <nav class="navbar custom-navbar">
     <div class="custom-navbar-container">
